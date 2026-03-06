@@ -1,5 +1,5 @@
 
-# Olist 电商经营分析（MySQL + Tableau + Python）
+# Olist 电商经营分析
 
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue) ![Python](https://img.shields.io/badge/Python-3.8+-green) ![Tableau](https://img.shields.io/badge/Tableau-Latest-orange)
 
@@ -13,7 +13,7 @@
 
 > 💡 **项目亮点**: 完整覆盖数据分析岗位核心技能 - SQL 建模、指标体系、BI 看板、专题分析、Python 数据处理
 
-## ⭐ 核心结论（Top 3，面试 60 秒速览）
+## ⭐ 核心结论
 
 详见 1 页结论卡：[`docs/analysis_summary.md`](docs/analysis_summary.md)
 
@@ -21,7 +21,7 @@
 - **体验**：延迟与差评强相关：延迟 0 天差评率 9.10%；延迟 1-3 天 31.50%；延迟 4-7 天 65.15%；延迟 8+ 天 76.62%
 - **用户**：总用户数 93,358；复购用户数 1,693；复购率 1.81%（M1 留存 0.451%）
 
-#### 全面版（Tableau，推荐 5 页）
+#### 全面版
 - Page 1：经营总览（KPI + 趋势 + Top 类目/地区）
 - Page 2：增长拆解与结构贡献（类目/地区贡献与风险叠加）
 - Page 3：转化漏斗（下单→支付→发货→送达→评价）
@@ -143,7 +143,7 @@ olist_analytics/
 
 ## 🚀 快速开始
 
-### 方法一：使用自动化脚本（推荐）
+### 方法一：使用自动化脚本
 
 ```bash
 # 1. 下载数据集到 archive/ 目录

@@ -395,19 +395,3 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 - 参考了多个开源项目的最佳实践
 
 ---
-
-**最后更新**: 2025-02-08  
-**作者**: [你的名字]  
-**联系方式**: [你的邮箱/GitHub]
-
----
-
-## 📌 下一步计划
-
-- [ ] 添加更多专题分析（销售趋势、差评根因）
-- [ ] 完善 Tableau 看板并添加截图
-- [ ] 补充 Python 特征工程 Notebook
-- [ ] 完成分析报告并导出 PDF
-- [ ] 录制项目演示视频
-
-查看详细计划: [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md)

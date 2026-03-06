@@ -1,0 +1,99 @@
+{
+  "table_profiles": [
+    {
+      "name": "orders",
+      "rows": 99441,
+      "cols": 8,
+      "missing_cells": 4908,
+      "missing_pct": 0.6169,
+      "duplicate_rows": 0
+    },
+    {
+      "name": "order_items",
+      "rows": 112650,
+      "cols": 7,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0
+    },
+    {
+      "name": "order_payments",
+      "rows": 103886,
+      "cols": 5,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0
+    },
+    {
+      "name": "customers",
+      "rows": 99441,
+      "cols": 5,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0
+    },
+    {
+      "name": "reviews",
+      "rows": 99224,
+      "cols": 7,
+      "missing_cells": 145903,
+      "missing_pct": 21.0063,
+      "duplicate_rows": 0
+    },
+    {
+      "name": "products",
+      "rows": 32951,
+      "cols": 9,
+      "missing_cells": 2448,
+      "missing_pct": 0.8255,
+      "duplicate_rows": 0
+    }
+  ],
+  "order_status": {
+    "status_counts": {
+      "delivered": 96478,
+      "shipped": 1107,
+      "canceled": 625,
+      "unavailable": 609,
+      "invoiced": 314,
+      "processing": 301,
+      "created": 5,
+      "approved": 2
+    },
+    "delivered_cnt": 96478,
+    "delivered_pct": 97.02034372140264,
+    "total_orders_cnt": 99441
+  },
+  "fk_consistency": {
+    "orders_order_id_nunique": 99441,
+    "order_items_order_id_nunique": 98666,
+    "order_payments_order_id_nunique": 99440,
+    "reviews_order_id_nunique": 98673,
+    "orphan_items_order_id_cnt": 0,
+    "orphan_payments_order_id_cnt": 0,
+    "orphan_reviews_order_id_cnt": 0
+  },
+  "gmv_compare": {
+    "delivered_orders_cnt": 96478,
+    "item_gmv_total": 15419773.75,
+    "paid_gmv_total": 15422461.77,
+    "diff_total": -2831.4799999999595,
+    "diff_pct_total": -0.01836265593715316,
+    "diff_describe": {
+      "count": 96477.0,
+      "mean": -0.029348756698487303,
+      "std": 1.1387058166343593,
+      "min": -182.80999999999995,
+      "1%": -5.684341886080802e-14,
+      "5%": -1.4210854715202004e-14,
+      "50%": 0.0,
+      "95%": 1.4210854715202004e-14,
+      "99%": 5.684341886080802e-14,
+      "max": 51.620000000000005
+    }
+  },
+  "generated_files": {
+    "report_md": "/Users/hzh/Desktop/就业/olist_analytics/reports/python_data_quality_report.md",
+    "metrics_json": "/Users/hzh/Desktop/就业/olist_analytics/reports/python_data_quality_metrics.json"
+  }
+}

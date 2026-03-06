@@ -1,0 +1,49 @@
+# 数据文件（太大，不上传）
+archive/
+data/raw/
+data/processed/
+*.csv
+*.zip
+*.gz
+*.7z
+
+# Tableau/Power BI
+*.hyper
+*.tde
+*.twb
+*.twbx
+*.pbix
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.py[cod]
+*$py.class
+.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MySQL 配置
+config/database.ini
+
+# 结果文件（可选）
+results/*.txt
+results/*.csv
+
+# 临时文件
+*.tmp
+*.log
+~$*

@@ -1,0 +1,77 @@
+olist_analytics/
+├── README.md                           # 项目主文档
+├── CHANGELOG.md                        # 更新日志
+├── requirements.txt                    # Python 依赖
+├── .gitignore                          # Git 配置
+│
+├── archive/                            # 原始数据（9个CSV文件）
+│   ├── olist_orders_dataset.csv
+│   ├── olist_order_items_dataset.csv
+│   ├── olist_order_payments_dataset.csv
+│   ├── olist_customers_dataset.csv
+│   ├── olist_order_reviews_dataset.csv
+│   ├── olist_products_dataset.csv
+│   ├── olist_sellers_dataset.csv
+│   ├── olist_geolocation_dataset.csv
+│   └── product_category_name_translation.csv
+│
+├── data/                               # 数据处理
+│   ├── raw/                            # 原始数据备份
+│   │   └── .gitkeep
+│   └── processed/                      # 处理后数据
+│       └── .gitkeep
+│
+├── sql/                                # SQL 脚本（6个）
+│   ├── 00_setup/
+│   │   ├── 01_create_tables.sql        # 建表
+│   │   └── 02_load_data.sql            # 导入
+│   ├── 10_model/
+│   │   ├── 03_build_fact.sql           # 事实表
+│   │   └── 04_build_dm.sql             # 主题表
+│   └── 20_analysis/
+│       ├── 05_cohort_retention.sql     # 留存分析
+│       └── 06_funnel_analysis.sql      # 转化漏斗
+│
+├── notebooks/                          # Jupyter Notebook
+│   └── 01_data_quality_checks.ipynb    # 数据质量检查
+│
+├── scripts/                            # 自动化脚本
+│   └── quick_start.sh                  # 快速启动脚本
+│
+├── results/                            # 查询结果输出
+│   └── .gitkeep
+│
+├── reports/                            # 分析报告
+│   └── analysis_report.md
+│
+├── tableau/                            # Tableau 截图交付物
+│   └── dashboard_screenshots/
+│
+└── docs/                               # 文档
+    ├── metric_dict.md                  # 指标口径
+    ├── kpi_dictionary.md               # 指标字典
+    ├── analysis_summary.md             # 分析报告
+    ├── RESUME_TEMPLATE.md              # 简历模板
+    │
+    ├── guides/                         # 指南文档
+    │   ├── START_HERE.md               # 🌟 新手入门（必读）
+    │   ├── PROJECT_ROADMAP.md          # 项目路线图
+    │   ├── GITHUB_SETUP.md             # GitHub 上传指南
+    │   └── DIRECTORY_STRUCTURE.md      # 目录结构说明
+    │
+    └── screenshots/                    # 截图
+        ├── tableau/                    # Tableau 看板截图
+        │   └── .gitkeep
+        └── sql_results/                # SQL 结果截图
+            └── .gitkeep
+
+---
+总计：
+- 📁 目录: 13 个
+- 📄 文件: 25+ 个
+- 📊 SQL 脚本: 6 个
+- 📓 Notebook: 1 个
+- 📚 文档: 8 个
+- 🔧 脚本: 1 个
+
+最后更新: 2025-02-08

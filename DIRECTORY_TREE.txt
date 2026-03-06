@@ -51,7 +51,7 @@ olist_analytics/
     ├── metric_dict.md                  # 指标口径
     ├── kpi_dictionary.md               # 指标字典
     ├── analysis_summary.md             # 分析报告
-    ├── RESUME_TEMPLATE.md              # 简历模板
+    ├── RESUME_TEMPLATE.md              # 简历写法参考
     │
     ├── guides/                         # 指南文档
     │   ├── START_HERE.md               # 🌟 新手入门（必读）

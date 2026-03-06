@@ -71,7 +71,7 @@ olist_analytics/
 │   ├── 📄 metric_dict.md           # 指标口径文档
 │   ├── 📄 kpi_dictionary.md        # 指标字典
 │   ├── 📄 analysis_summary.md      # 分析报告（Markdown）
-│   ├── 📄 RESUME_TEMPLATE.md       # 简历模板
+│   ├── 📄 RESUME_TEMPLATE.md       # 简历写法参考
 │   │
 │   ├── 📁 guides/                  # 指南文档
 │   │   ├── START_HERE.md           # 新手入门指南（必读）
@@ -197,7 +197,7 @@ mysql -u root -p db_olist < sql/20_analysis/05_cohort_retention.sql > results/co
 #### 根目录文档
 - `metric_dict.md`: 指标口径说明（核心文档）
 - `analysis_summary.md`: 分析报告
-- `RESUME_TEMPLATE.md`: 简历模板
+- `RESUME_TEMPLATE.md`: 简历写法参考
 
 #### 📁 guides/ - 指南文档
 - `START_HERE.md`: 新手入门指南（⭐ 必读）
@@ -356,7 +356,7 @@ docs/screenshots/sql_results/new_analysis.png
 - [新手入门指南](START_HERE.md) - 从这里开始
 - [项目路线图](PROJECT_ROADMAP.md) - 10 天实施计划
 - [GitHub 上传指南](GITHUB_SETUP.md) - 如何上传到 GitHub
-- [简历模板](../RESUME_TEMPLATE.md) - 如何写简历
+- [简历写法参考](../RESUME_TEMPLATE.md) - 如何写简历
 
 ---
 

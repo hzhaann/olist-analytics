@@ -7,7 +7,7 @@
 - [x] 创建 requirements.txt
 - [x] 编写 README.md
 - [x] 编写核心文档
-- [x] 创建 SQL 脚本模板
+- [x] 创建 SQL 脚本初版
 
 ---
 

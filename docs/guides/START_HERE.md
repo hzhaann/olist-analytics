@@ -102,7 +102,7 @@ olist_analytics/
 │   ├── kpi_dictionary.md           # 指标口径 ⭐
 │   ├── data_dictionary.md          # 数据字典 ⭐
 │   ├── analysis_summary.md         # 分析报告
-│   └── RESUME_TEMPLATE.md          # 简历模板 ⭐
+│   └── RESUME_TEMPLATE.md          # 简历写法参考 ⭐
 │
 └── 📂 tableau/                     # Tableau 看板
     └── dashboard_screenshots/      # 看板截图
@@ -128,7 +128,7 @@ olist_analytics/
 ### 3️⃣ 完成分析后填写
 
 - **[analysis_summary.md](../analysis_summary.md)**: 分析报告
-- **[RESUME_TEMPLATE.md](../RESUME_TEMPLATE.md)**: 简历模板
+- **[RESUME_TEMPLATE.md](../RESUME_TEMPLATE.md)**: 简历写法参考
 
 ---
 
@@ -255,7 +255,7 @@ conn = pymysql.connect(
 2. ✅ 导入数据到 MySQL
 3. ✅ 开始专题分析
 
-**祝你顺利完成项目！加油！💪**
+ 
 
 ---
 

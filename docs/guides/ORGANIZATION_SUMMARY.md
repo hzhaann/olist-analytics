@@ -25,8 +25,8 @@
 - ✅ START_HERE.md - 快速开始指南
 - ✅ PROJECT_ROADMAP.md - 项目路线图
 - ✅ GITHUB_SETUP.md - GitHub 上传指南
-- ✅ RESUME_TEMPLATE.md - 简历模板
-- ⏳ analysis_summary.md - 分析报告（待完善）
+- ✅ RESUME_TEMPLATE.md - 简历写法参考
+- ✅ analysis_summary.md - 分析报告
 
 ### 3. SQL 脚本（80% 完成）
 - ✅ 01_create_tables.sql - 建表脚本
@@ -222,7 +222,7 @@ dashboard_screenshots/    (待添加截图)
 - [x] 指标口径文档完整
 - [x] 数据字典完整
 - [ ] 分析报告完整
-- [x] 简历模板完整
+- [x] 简历写法参考完整
 
 ### 项目结构
 - [x] 目录结构清晰
@@ -274,7 +274,7 @@ dashboard_screenshots/    (待添加截图)
 留存、漏斗、RFM、根因等多个分析维度。
 
 ### 4. 面试友好
-完整的文档和简历模板，直接可用。
+完整的文档与简历写法参考，便于面试展示与复盘。
 
 ---
 
@@ -291,7 +291,7 @@ dashboard_screenshots/    (待添加截图)
 - SQL 脚本: sql/ 目录
 
 ### 面试准备
-- 简历模板: docs/RESUME_TEMPLATE.md
+- 简历写法参考: docs/RESUME_TEMPLATE.md
 - 分析报告: docs/analysis_summary.md
 
 ---

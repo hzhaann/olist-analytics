@@ -64,7 +64,7 @@
 
 ```
 olist_analytics/
-├── 📄 README.md                    # 项目主文档（你正在看的）
+├── 📄 README.md                    # 项目主文档
 ├── 📄 requirements.txt             # Python 依赖
 ├── 📄 .gitignore                   # Git 配置
 │
@@ -103,7 +103,7 @@ olist_analytics/
 └── 📁 docs/                        # 文档
     ├── metric_dict.md              # 指标口径
     ├── analysis_summary.md         # 分析报告
-    ├── RESUME_TEMPLATE.md          # 简历模板
+    ├── RESUME_TEMPLATE.md          # 简历写法参考
     ├── guides/                     # 指南文档
     │   ├── START_HERE.md           # 🌟 新手入门（必读）
     │   ├── PROJECT_ROADMAP.md      # 项目路线图
